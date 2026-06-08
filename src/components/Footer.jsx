@@ -5,13 +5,17 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className="footer">
+      {/* Decorative background shapes in footer */}
+      <div className="shape shape-3" style={{ bottom: '0', right: '0', opacity: 0.3, width: '400px', height: '400px' }}></div>
+      <div className="shape shape-1" style={{ top: '0', left: '-10%', opacity: 0.2, width: '300px', height: '300px' }}></div>
+
       <div className="container footer-container">
         <div className="footer-section">
           <Link to="/" className="footer-logo">
-            <img src="https://soulsounds.lk/wp-content/uploads/2024/10/logo-large.png" alt="Soul Sounds Logo" style={{ height: '60px', objectFit: 'contain' }} />
+            <img src="https://soulsounds.lk/wp-content/uploads/2024/10/logo-large.png" alt="Soul Sounds Logo" style={{ height: '60px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }} />
           </Link>
           <p className="footer-desc">
-            Award winning all-women choir from Sri Lanka. Experience the magic of harmonious voices and passionate performances.
+            Award winning all-women choir from Sri Lanka. Experience the magic of harmonious voices, empowering performances, and joyful artistic expression.
           </p>
           <div className="social-links">
             <a href="https://www.facebook.com/Soul.Sounds.SriLanka" target="_blank" rel="noopener noreferrer" className="social-icon">
@@ -32,10 +36,10 @@ const Footer = () => {
         <div className="footer-section">
           <h4 className="footer-title">Quick Links</h4>
           <ul className="footer-links">
-            <li><Link to="/about">About Us</Link></li>
+            <li><Link to="/about">Our Story</Link></li>
             <li><Link to="/gallery">Gallery</Link></li>
             <li><Link to="/events">Tour Dates</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/contact">Get in Touch</Link></li>
           </ul>
         </div>
 
