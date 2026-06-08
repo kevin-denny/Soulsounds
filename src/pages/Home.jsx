@@ -35,31 +35,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Featured Section */}
-      <section className="section featured-section">
-        <div className="container">
-          <div className="featured-grid">
-            <div className="featured-content animate-fade-in">
-              <h2 className="section-title" style={{ textAlign: 'left', marginBottom: '1rem' }}>
-                Latest <span className="text-gradient">Album</span>
-              </h2>
-              <p className="section-subtitle" style={{ textAlign: 'left', margin: '0 0 2.5rem 0' }}>
-                Available at iTunes, Amazon, Spotify, Bandcamp and old fashion CD with digital booklet limited edition.
-              </p>
-              <button className="btn-primary">Listen Now</button>
-            </div>
-            
-            <div className="featured-image-wrapper animate-fade-in delay-200">
-              <div className="featured-image-placeholder glass animate-organic">
-                {/* Real photo placeholder */}
-                <div className="photo-placeholder">
-                  <span className="placeholder-text">Album Art placeholder</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
       
       {/* Harmony Section */}
       <section className="section bg-dark text-light harmony-section">
